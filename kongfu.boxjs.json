@@ -1,0 +1,103 @@
+{
+    "id": "shaolin-kongfu.app.sub",
+    "name": "少林功夫boxjs订阅",
+    "author": "@shaolin-kongfu",
+    "icon": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
+    "repo": "https://github.com/shaolin-kongfu/js_scripts",
+    "apps": [
+      {
+      "id": "jcKkz",
+      "name": "晶彩看看赚",
+      "keys": [
+        "lookStartbody"
+      ], 
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jckkz.js",  
+      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js", 
+       
+      "icons": [ 
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"  
+      ]
+    },
+    {
+      "id": "jcRead",
+      "name": "晶彩自动阅读",
+      "keys": [
+        "wzbody",
+        "jc_timebody"
+      ], 
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jcwz.js", 
+      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js", 
+      "icons": [ 
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jcSign",
+      "name": "晶彩签到&宝箱",
+      "keys": [
+        "qdbody",
+        "jcboxbody"
+      ], 
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jcqd.js",
+      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js",     
+      "icons": [ 
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jcZf",
+      "name": "晶彩火爆转发",
+      "keys": [
+        "jc_cookie"
+      ], 
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jc_share.js",
+      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_share.js",     
+      "icons": [ 
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+     },
+     {
+      "id": "jcfriendSign",
+      "name": "晶彩好友签到红包",
+      "keys": [
+        "jc_cookie"
+      ], 
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jc_friendSign.js",
+      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_friendSign.js",     
+      "icons": [ 
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+     },
+        {
+      "id": "jsz",
+      "name": "金银手指阅读",
+      "keys": 
+        ["jszhd","jszhd2","jszhd3","jszhd4","jszhd5"],
+      "settings": [{
+                        "id": "jszstatus",
+                        "name": "当前账号",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4等"
+                    }, {
+                        "id": "jszcount",
+                        "name": "账号个数",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                    }],
+  
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jsz.js", 
+      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jsz.js", 
+      "icons": [ 
+        "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
+        "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg"
+      ]
+    }
+   ]
+}
